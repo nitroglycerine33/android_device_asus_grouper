@@ -11,3 +11,7 @@ debug.nfc.se=false
 
 # set default lcd density to TVDPI
 ro.sf.lcd_density=213
+
+# temp fix for dalvik-cache
+dalvik.vm.dexopt-data-only=1
+
